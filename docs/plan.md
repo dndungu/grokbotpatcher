@@ -54,8 +54,8 @@ conversation.
   task before E3's Wave A uses synthetic fixtures.
 - This repo has no `docs/design.md`, `docs/devlog.md`, or existing
   `docs/roadmap.md`; `docs/roadmap.md` is created as part of this write.
-- License is not yet chosen (see Hand off Notes) -- that is a decision for
-  the repo owner, not made by this plan.
+- Licensed Apache License 2.0 (see [LICENSE](../LICENSE)), public/open
+  source, per the repo owner's direct decision on 2026-09-22.
 
 ### Success metrics
 
@@ -260,8 +260,11 @@ Definition of done for every task in this plan:
   manifest of injection anchors can exist until a real reviewed build has
   been inspected (T3.3). Treat E1/E2's fixture-based test passes as proof of
   internal correctness, not proof the real patch works.
-- License is not chosen yet -- flag this back to the repo owner before any
-  public release; do not assume one.
+- Licensed Apache License 2.0 and public: every commit, issue, and PR is
+  visible to anyone from this point forward. This raises the bar on the
+  "never commit target-application source" rule below from a hygiene
+  preference to a hard requirement with no private fallback to catch a
+  mistake.
 - Use case manifest: `.claude/scratch/usecases-manifest.json`.
 - Never commit any source code or content belonging to the target
   application itself into this repository -- manifests record hashes and
@@ -272,4 +275,7 @@ Definition of done for every task in this plan:
 - ADRs: docs/adr/001-single-go-binary-on-device-agent.md,
   docs/adr/002-shell-out-for-host-syntax-validation.md,
   docs/adr/003-injection-marker-versioning.md.
+- docs/cli.md -- designed command-line interface (subcommands, flags, exit
+  codes) that E1/E2/E3's tasks implement against.
 - README.md -- project overview and design goals.
+- LICENSE -- Apache License 2.0.

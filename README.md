@@ -11,8 +11,9 @@ translates that turn's context and tool schemas to and from that backend.
 
 ## Status
 
-Planning. See [docs/plan.md](docs/plan.md) for the full work breakdown and
-[docs/adr/](docs/adr/) for the architectural decisions already made.
+Planning. See [docs/plan.md](docs/plan.md) for the full work breakdown,
+[docs/adr/](docs/adr/) for the architectural decisions already made, and
+[docs/cli.md](docs/cli.md) for the designed command-line interface.
 
 ## Design goals
 
@@ -37,4 +38,4 @@ Planning. See [docs/plan.md](docs/plan.md) for the full work breakdown and
 
 ## License
 
-TBD.
+Apache License 2.0. See [LICENSE](LICENSE).
